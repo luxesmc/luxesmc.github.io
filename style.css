@@ -46,9 +46,9 @@ html{
 }
 
 .logo{
-  width: 44px;
+  width: 40px;
   height: 32px;
-  background-image: url(logo.png);
+  background-image: url(logo.png.);
   background-size: 38px;
 }
 
@@ -90,7 +90,7 @@ html{
 }
 
 .sticky .logo{
-  background-image: url(logo.png);
+  background-image: url(logo.png.);
 }
 
 .sticky .navbar-menu a{
