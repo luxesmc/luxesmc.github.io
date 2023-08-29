@@ -128,19 +128,15 @@ html{
 }
 
 #home .content h1::after{
-  content: "Uygun fiyatlarla";
+  content: "LuxesMC";
   animation: textanim 10s linear infinite;
 }
 
 @keyframes textanim{
   25%{
-    content: "SSL";
+    content: "En Kaliteli Minecraft Sunucusu"";
   }
-  50%{
-    content: "Kaliteli web sitesi";}
-  75%{
-    content: "Özel haberleşme sistemleri";
-  }
+  
 }
 
 .sm a{
