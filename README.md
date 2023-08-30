@@ -1,2 +1,2 @@
 # luxesmc.github.io
-LuxesMC İnternet Sitesi (DEMO)
+LuxesMC İnternet Sitesi (Beta 1.0)
