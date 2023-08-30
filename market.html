@@ -3,122 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LuxesMC | Market
-    </title>
-    <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="style.css">
+    <title>LuxesMC | Market</title>
+    <link rel="icon" href="luxesmc.png" sizes="32x32" />
+<link rel="icon" href="luxesmc.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="luxesmc.png" />
+<meta name="msapplication-TileImage" content="logo.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="scripts.js"></script>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="inner-width">
-          <a href="/" class="logo"></a>
-          
-          <button class="menu-toggler">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-          <div class="navbar-menu">
-            <a href="/">Ana Sayfa</a>
-            
-          </div>
-        </div>
-      </nav>
     
-    <div id='product-component-1693326348309'></div>
-<script type="text/javascript">
-/*<![CDATA[*/
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  if (window.ShopifyBuy) {
-    if (window.ShopifyBuy.UI) {
-      ShopifyBuyInit();
-    } else {
-      loadScript();
-    }
-  } else {
-    loadScript();
-  }
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: '13b9aa-2.myshopify.com',
-      storefrontAccessToken: 'f9c6418387d347e56f983e891d32e08b',
-    });
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: '8674788638995',
-        node: document.getElementById('product-component-1693326348309'),
-        moneyFormat: '%7B%7Bamount%7D%7DTL',
-        options: {
-  "product": {
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "calc(25% - 20px)",
-          "margin-left": "20px",
-          "margin-bottom": "50px"
-        }
-      }
-    },
-    "text": {
-      "button": "Sepete Ekle"
-    }
-  },
-  "productSet": {
-    "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
-    }
-  },
-  "modalProduct": {
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "button": false,
-      "buttonWithQuantity": true
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      }
-    },
-    "text": {
-      "button": "Sepete Ekle"
-    }
-  },
-  "option": {},
-  "cart": {
-    "text": {
-      "total": "Subtotal",
-      "button": "Checkout"
-    }
-  },
-  "toggle": {}
-},
-      });
-    });
-  }
-})();
-/*]]>*/
-</script>
-
-
-
-
+    <div class="inner-width" >
+        <h1 class="section-title">Market</h1>
+        <div class="works">
+          <a href="vip.png" class="work">
+            <img src="vip.png" alt="">
+            <div class="info">
+              <h3>5 TL (Geçici)</h3>
+              <div class="cat"><div id='product-component-1693392386371'></div>
+              <script type="text/javascript">
+              /*<![CDATA[*/
+              (function () {
+                var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                if (window.ShopifyBuy) {
+                  if (window.ShopifyBuy.UI) {
+                    ShopifyBuyInit();
+                  } else {
+                    loadScript();
+                  }
+                } else {
+                  loadScript();
+                }
+                function loadScript() {
+                  var script = document.createElement('script');
+                  script.async = true;
+                  script.src = scriptURL;
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                  script.onload = ShopifyBuyInit;
+                }
+                function ShopifyBuyInit() {
+                  var client = ShopifyBuy.buildClient({
+                    domain: '13b9aa-2.myshopify.com',
+                    storefrontAccessToken: 'f9c6418387d347e56f983e891d32e08b',
+                  });
+                  ShopifyBuy.UI.onReady(client).then(function (ui) {
+                    ui.createComponent('product', {
+                      id: '8674788638995',
+                      node: document.getElementById('product-component-1693392386371'),
+                      moneyFormat: '%7B%7Bamount%7D%7DTL',
+                      options: {
+                "product": {
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "calc(25% - 20px)",
+                        "margin-left": "20px",
+                        "margin-bottom": "50px"
+                      }
+                    }
+                  },
+                  "contents": {
+                    "img": false,
+                    "title": false,
+                    "price": false
+                  },
+                  "text": {
+                    "button": "Sepete Ekle"
+                  }
+                },
+                "productSet": {
+                  "styles": {
+                    "products": {
+                      "@media (min-width: 601px)": {
+                        "margin-left": "-20px"
+                      }
+                    }
+                  }
+                },
+                "modalProduct": {
+                  "contents": {
+                    "img": false,
+                    "imgWithCarousel": true,
+                    "button": false,
+                    "buttonWithQuantity": true
+                  },
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0px",
+                        "margin-bottom": "0px"
+                      }
+                    }
+                  },
+                  "text": {
+                    "button": "Sepete Ekle"
+                  }
+                },
+                "option": {},
+                "cart": {
+                  "text": {
+                    "total": "Subtotal",
+                    "button": "Checkout"
+                  }
+                },
+                "toggle": {}
+              },
+                    });
+                  });
+                }
+              })();
+              /*]]>*/
+              </script></div>
+            </div>
+          </a>
+  <!--
+          <a href="kemal1221.png" class="work">
+            <img src="kemal1221.png" alt="">
+            <div class="info">
+              <h3>Kemal1221</h3>
+              <div class="cat">Kurucu</div>
+            </div>
+          </a>
+  
+          <a href="astrex.png" class="work">
+            <img src="astrex.png" alt="">
+            <div class="info">
+              <h3>Astrex</h3>
+              <div class="cat">Kurucu</div>
+            </div>
+          </a>
+  
+          <a href="Wliderr0.png" class="work">
+            <img src="Wliderr0.png" alt="">
+            <div class="info">
+              <h3>wLiderr0</h3>
+              <div class="cat">Yönetici</div>
+            </div>
+          </a>
+  -->
+         
+        </div>
+      </div>
 
 </body>
 </html>
